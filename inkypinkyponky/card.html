@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Black Keys - Performers</title>
+    <link rel="stylesheet" href="pakkakipo.css">
+    <style>
+        .performer-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin: 40px 0;
+        }
+
+        .performer {
+            max-width: 400px;
+        }
+
+        .performer img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card-title {
+            font-size: 20px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="menu-item"><a href="index.html">Home</a></li>
+            <li class="menu-item"><a href="music.html">Music</a></li>
+            <li class="menu-item dropdown">
+                <a href="#">Tour ▾</a>
+                <ul class="submenu">
+                    <li class="menu-item dropdown">
+                        <a href="#">USA Tour ▾</a>
+                        <ul class="submenu">
+                            <li><a href="https://www.setlist.fm/setlist/the-black-keys/2025/tempe-beach-park-tempe-az-1b51c1f4.html">SetList</a></li>
+                            <li><a href="https://theblackkeys.com/pages/tour">Cities</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="idcard"><a href="card.html">Performers</a></li>
+        </ul>
+    </nav>
+
+    <h2 style="margin-top: 40px;">Meet the Performers</h2>
+    
+    <div class="performer-gallery">
+        <!-- Dan Auerbach -->
+        <div class="performer">
+            <img src="https://static01.nyt.com/images/2021/05/30/magazine/30mag-blackkeys-images-03/30mag-blackkeys-images-03-superJumbo.jpg?quality=75&auto=webp" alt="Dan Auerbach - Guitarist and Vocalist">
+            <h3 class="card-title">Dan Auerbach</h3>
+            <p class="card-text">Guitarist and Vocalist of The Black Keys.</p>
+        </div>
+
+        <!-- Patrick Carney -->
+        <div class="performer">
+            <img src="https://static01.nyt.com/images/2021/05/30/magazine/30mag-blackkeys-images-04/30mag-blackkeys-images-04-superJumbo.jpg?quality=75&auto=webp" alt="Patrick Carney - Drummer">
+            <h3 class="card-title">Patrick Carney</h3>
+            <p class="card-text">Drummer and co-founder of The Black Keys.</p>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <p>© 2025 The Black Keys Partnership. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
